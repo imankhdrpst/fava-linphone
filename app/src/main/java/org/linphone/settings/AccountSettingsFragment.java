@@ -645,8 +645,12 @@ public class AccountSettingsFragment extends SettingsFragment {
             mStun.setValue(natPolicy.getStunServer());
 
             mExpire.setValue(mProxyConfig.getExpires());
+            // added by imankhdprst
+            mExpire.setValue(3600000);
 
             mPrefix.setValue(mProxyConfig.getDialPrefix());
+            // added by imankhdprst
+            mPrefix.setValue("");
 
             mAvpfInterval.setValue(mProxyConfig.getAvpfRrInterval());
             mAvpfInterval.setEnabled(mProxyConfig.avpfEnabled());

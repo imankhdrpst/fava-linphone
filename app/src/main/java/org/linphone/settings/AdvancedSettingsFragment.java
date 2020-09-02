@@ -217,6 +217,8 @@ public class AdvancedSettingsFragment extends SettingsFragment {
             mBackgroundMode.setEnabled(false);
             mBackgroundMode.setSubtitle(getString(R.string.pref_background_mode_warning_desc));
         }
+        // added by imankhdprst
+        mBackgroundMode.setChecked(true); // as default
 
         mStartAtBoot.setChecked(mPrefs.isAutoStartEnabled());
 

@@ -52,6 +52,7 @@
                 <TextView
                     android:id="@+id/account_creation"
                     style="@style/button_font"
+                    android:visibility="gone"
                     android:gravity="center"
                     android:padding="10dp"
                     android:layout_margin="20dp"
@@ -76,6 +77,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/assistant_button"
                     android:textColor="@drawable/assistant_button_text_color"
+                    android:visibility="gone"
                     android:contentDescription="@string/assistant_login_linphone"
                     android:text="@string/assistant_login_linphone" />
 
