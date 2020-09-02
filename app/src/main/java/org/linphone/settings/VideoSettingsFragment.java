@@ -248,6 +248,9 @@ public class VideoSettingsFragment extends SettingsFragment {
         populateVideoCodecs();
 
         setListeners();
+
+        // added by imankhdprst
+        mAutoAccept.setChecked(true);
     }
 
     private void initVideoSizeList() {
