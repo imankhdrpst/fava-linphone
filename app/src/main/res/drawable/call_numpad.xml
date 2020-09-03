@@ -3,8 +3,7 @@
     <item android:state_selected="true">
         <bitmap android:src="@drawable/dialer_alt_back" />
     </item>
-    <item>
-        <bitmap android:src="@drawable/footer_dialer" />
+    <item android:drawable="@drawable/ic_keypad">
     </item>
 </selector>
 

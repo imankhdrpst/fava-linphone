@@ -67,11 +67,12 @@ public class AboutActivity extends MainActivity {
         TextView aboutLiblinphoneVersion = findViewById(R.id.about_liblinphone_sdk_version);
         aboutLiblinphoneVersion.setText(
                 String.format(
-                        getString(R.string.about_liblinphone_sdk_version),
-                        getString(R.string.linphone_sdk_version)
-                                + " ("
-                                + getString(R.string.linphone_sdk_branch)
-                                + ")"));
+                        getString(R.string.about_liblinphone_sdk_version), "1"
+                        //                        getString(R.string.linphone_sdk_version)
+                        //                                + " ("
+                        //                                + getString(R.string.linphone_sdk_branch)
+                        //                                + ")")
+                        ));
         // We can't access a library's BuildConfig, so we have to set it as a resource
         aboutVersion.setText(
                 String.format(

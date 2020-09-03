@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_pressed="true">
-        <bitmap android:src="@drawable/menu_assistant_default"
-            android:tint="?attr/drawableTintOverColor"/>
-    </item>
-    <item android:state_enabled="false">
-        <bitmap android:src="@drawable/menu_assistant_default"
-            android:tint="?attr/drawableTintDisabledColor"/>
-    </item>
-    <item>
-        <bitmap android:src="@drawable/menu_assistant_default"
-            android:tint="?attr/drawableTintColor"/>
-    </item>
+    <item android:drawable="@drawable/ic_assistant" android:state_pressed="true" android:tint="?attr/drawableTintOverColor" />
+    <item android:drawable="@drawable/ic_assistant" android:state_enabled="false" android:tint="?attr/drawableTintDisabledColor" />
+    <item android:drawable="@drawable/ic_assistant" android:tint="?attr/drawableTintColor"/>
 </selector>

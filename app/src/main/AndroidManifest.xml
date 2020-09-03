@@ -59,10 +59,10 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_logo"
         android:resizeableActivity="true"
         android:theme="@style/LinphoneStyle"
         android:requestLegacyExternalStorage="true">

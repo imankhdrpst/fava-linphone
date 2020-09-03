@@ -83,10 +83,9 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
                         android:contentDescription="@string/content_description_history"
                         android:padding="15dp"
-                        android:src="@drawable/footer_history" />
+                        android:src="@drawable/ic_history" />
 
                     <View
                         android:id="@+id/history_select"
@@ -124,7 +123,7 @@
                         android:layout_centerInParent="true"
                         android:contentDescription="@string/content_description_contacts"
                         android:padding="15dp"
-                        android:src="@drawable/footer_contacts" />
+                        android:src="@drawable/ic_contacts" />
 
                     <View
                         android:id="@+id/contacts_select"
@@ -148,7 +147,7 @@
                         android:layout_centerInParent="true"
                         android:contentDescription="@string/content_description_dialer"
                         android:padding="15dp"
-                        android:src="@drawable/footer_dialer" />
+                        android:src="@drawable/ic_keypad" />
 
                     <View
                         android:id="@+id/dialer_select"
