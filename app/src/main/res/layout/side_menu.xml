@@ -18,7 +18,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:padding="5dp"
-            android:src="@drawable/quit" />
+            android:src="@drawable/ic_exit" />
 
         <TextView
             android:id="@+id/quit"
