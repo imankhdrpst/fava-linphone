@@ -12,7 +12,7 @@
         <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
         <item name="android:textColorPrimary">@color/main_gold_color</item>
         <item name="android:textColorSecondary">@color/main_gold_color_light</item>
-        <item name="android:textColorHint">@color/main_gold_color_light</item>
+        <item name="android:textColorHint">@color/grey_color</item>
         <item name="android:colorBackground">@color/white_color</item>
         <item name="android:textColorPrimaryInverse">@color/main_gold_color_dark</item>
 
