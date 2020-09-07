@@ -61,7 +61,8 @@
     <!-- Start assistant in linphone login view instead of menu -->
     <bool name="assistant_use_linphone_login_as_first_fragment">false</bool>
     <!-- Start assistant in generic login view instead of menu -->
-    <bool name="assistant_use_generic_login_as_first_fragment">false</bool>
+    <bool name="assistant_use_generic_login_as_first_fragment">true</bool>
+<!--    <bool name="assistant_use_generic_login_as_first_fragment">false</bool>-->
     <!-- Start Linphone creation account in loginFragment view instead of menu -->
     <bool name="assistant_use_create_linphone_account_as_first_fragment">false</bool>
     <bool name="assistant_hide_status_bar">true</bool>
