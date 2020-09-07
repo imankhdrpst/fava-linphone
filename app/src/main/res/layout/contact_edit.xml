@@ -171,6 +171,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_marginLeft="5dp"
                         android:background="@drawable/round_orange_button_background"
+                        android:visibility="gone"
                         android:contentDescription="@string/content_description_add"
                         android:src="@drawable/add_field_default" />
                 </RelativeLayout>
@@ -210,6 +211,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_alignParentRight="true"
+                        android:visibility="gone"
                         android:layout_marginLeft="5dp"
                         android:background="@drawable/round_orange_button_background"
                         android:contentDescription="@string/content_description_add"

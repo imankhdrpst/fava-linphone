@@ -137,7 +137,9 @@ public class ContactEditorFragment extends Fragment {
                             boolean areAllFielsEmpty = true;
                             for (LinphoneNumberOrAddress nounoa : mNumbersAndAddresses) {
                                 String value = nounoa.getValue();
-                                if (value != null && !value.trim().isEmpty()) {
+                                if (value != null
+                                        && !value.trim().isEmpty()
+                                        && !value.equals("sip.favakish.ir:5090")) {
                                     areAllFielsEmpty = false;
                                     break;
                                 }
@@ -583,6 +585,8 @@ public class ContactEditorFragment extends Fragment {
                     if (view != null) controls.addView(view);
                 }
             }
+        } else {
+            mNewSipOrNumberToAdd = "sip.favakish.ir:5090";
         }
 
         if (mNewSipOrNumberToAdd != null) {

@@ -113,8 +113,10 @@
     <bool name="hide_contact_sip_addresses">false</bool>
     <bool name="hide_phone_numbers_in_editor">false</bool>
     <bool name="hide_sip_addresses_in_editor">false</bool>
-    <bool name="allow_only_one_phone_number">false</bool>
-    <bool name="allow_only_one_sip_address">false</bool>
+    <bool name="allow_only_one_phone_number">true</bool>
+<!--    <bool name="allow_only_one_phone_number">false</bool>-->
+    <bool name="allow_only_one_sip_address">true</bool>
+<!--    <bool name="allow_only_one_sip_address">false</bool>-->
     <bool name="display_contact_organization">true</bool>
     <bool name="hide_numbers_and_addresses_without_presence">false</bool>
     <bool name="hide_sip_contacts_without_presence">false</bool>
