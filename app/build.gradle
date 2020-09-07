@@ -176,7 +176,7 @@ if (firebaseEnabled()) {
 }
 
 task generateContactsXml(type: Copy) {
-    from 'contacts.xml'
+    from 'contacts_new.xml'
     into "src/main/res/xml/"
     filter {
         line -> line

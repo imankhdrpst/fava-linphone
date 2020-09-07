@@ -212,7 +212,7 @@ class ApiTwentyOnePlus {
         return new Notification.Builder(context)
                 .setContentTitle(title)
                 .setContentText(text)
-                .setSmallIcon(R.drawable.linphone_logo)
+                .setSmallIcon(R.drawable.ic_logo)
                 .setAutoCancel(true)
                 .setContentIntent(intent)
                 .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE)
