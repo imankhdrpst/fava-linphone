@@ -271,16 +271,16 @@ public class DialerActivity extends MainActivity implements AddressText.AddressC
 
         mAddContact = view.findViewById(R.id.add_contact);
         mAddContact.setEnabled(false);
-        mAddContact.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent(DialerActivity.this, ContactsActivity.class);
-                        intent.putExtra("EditOnClick", true);
-                        intent.putExtra("SipAddress", mAddress.getText().toString());
-                        startActivity(intent);
-                    }
-                });
+//        mAddContact.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        Intent intent = new Intent(DialerActivity.this, ContactsActivity.class);
+//                        intent.putExtra("EditOnClick", true);
+//                        intent.putExtra("SipAddress", mAddress.getText().toString());
+//                        startActivity(intent);
+//                    }
+//                });
 
         mBackToCall = view.findViewById(R.id.back_to_call);
         mBackToCall.setOnClickListener(
