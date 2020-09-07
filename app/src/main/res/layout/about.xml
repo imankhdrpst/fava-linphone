@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
+                android:visibility="gone"
                 android:paddingTop="20dp"
                 android:textColorLink="?attr/secondaryTextColor"
                 android:text="@string/about_version" />
@@ -48,6 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:visibility="gone"
                 android:gravity="center"
                 android:textColorLink="?attr/secondaryTextColor"
                 android:text="@string/about_liblinphone_sdk_version" />
@@ -72,7 +74,7 @@
                 android:gravity="center"
                 android:paddingTop="20dp"
                 android:text="@string/about_link"
-                android:textColorLink="@color/primary_color" />
+                android:textColorLink="@color/white_color" />
 
             <TextView
                 android:id="@+id/privacy_policy_link"
@@ -83,6 +85,7 @@
                 android:autoLink="web"
                 android:paddingTop="10dp"
                 android:gravity="center"
+                android:visibility="gone"
                 android:text="@string/about_privacy_policy"
                 android:textColorLink="@color/primary_color" />
 
@@ -94,6 +97,7 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:paddingTop="10dp"
+                android:visibility="gone"
                 android:paddingBottom="20dp"
                 android:text="@string/about_text" />
 
