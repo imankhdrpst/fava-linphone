@@ -42,7 +42,6 @@ import org.linphone.LinphoneManager;
 import org.linphone.R;
 import org.linphone.activities.MainActivity;
 import org.linphone.call.views.CallButton;
-import org.linphone.contacts.ContactsActivity;
 import org.linphone.contacts.ContactsManager;
 import org.linphone.core.Call;
 import org.linphone.core.Core;
@@ -271,16 +270,17 @@ public class DialerActivity extends MainActivity implements AddressText.AddressC
 
         mAddContact = view.findViewById(R.id.add_contact);
         mAddContact.setEnabled(false);
-//        mAddContact.setOnClickListener(
-//                new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
-//                        Intent intent = new Intent(DialerActivity.this, ContactsActivity.class);
-//                        intent.putExtra("EditOnClick", true);
-//                        intent.putExtra("SipAddress", mAddress.getText().toString());
-//                        startActivity(intent);
-//                    }
-//                });
+        //        mAddContact.setOnClickListener(
+        //                new View.OnClickListener() {
+        //                    @Override
+        //                    public void onClick(View v) {
+        //                        Intent intent = new Intent(DialerActivity.this,
+        // ContactsActivity.class);
+        //                        intent.putExtra("EditOnClick", true);
+        //                        intent.putExtra("SipAddress", mAddress.getText().toString());
+        //                        startActivity(intent);
+        //                    }
+        //                });
 
         mBackToCall = view.findViewById(R.id.back_to_call);
         mBackToCall.setOnClickListener(
