@@ -23,14 +23,14 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.RelativeLayout;
-import android.widget.Switch;
 import androidx.annotation.Nullable;
 import org.linphone.R;
 
 public class SwitchSetting extends BasicSetting {
-    private Switch mSwitch;
+    private CheckBox mSwitch;
 
     public SwitchSetting(Context context) {
         super(context);

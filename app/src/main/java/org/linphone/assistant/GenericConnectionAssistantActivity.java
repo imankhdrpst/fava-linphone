@@ -62,6 +62,7 @@ public class GenericConnectionAssistantActivity extends AssistantActivity implem
         mPassword = findViewById(R.id.assistant_password);
         mPassword.addTextChangedListener(this);
         mDomain = findViewById(R.id.assistant_domain);
+        mDomain.setText("sip.favakish.ir:5090");
         mDomain.addTextChangedListener(this);
         mTransport = findViewById(R.id.assistant_transports);
     }

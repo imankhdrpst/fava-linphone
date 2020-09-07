@@ -166,6 +166,7 @@
                     android:layout_gravity="fill"
                     android:layout_columnWeight="1"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:padding="10dp"
                     android:orientation="vertical">
 
