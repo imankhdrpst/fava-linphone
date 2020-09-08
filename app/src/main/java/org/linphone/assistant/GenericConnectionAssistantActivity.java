@@ -92,6 +92,9 @@ public class GenericConnectionAssistantActivity extends AssistantActivity implem
                 break;
         }
 
+        // added by imankhdprst to make default transport protocol
+        accountCreator.setTransport(TransportType.Tcp);
+
         createProxyConfigAndLeaveAssistant(true);
     }
 
