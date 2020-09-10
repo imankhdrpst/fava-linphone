@@ -361,8 +361,7 @@ public class CallStatusBarFragment extends Fragment {
             mZrtpDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
             mZrtpDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
             Drawable d =
-                    new ColorDrawable(
-                            ContextCompat.getColor(getActivity(), R.color.dark_grey_color));
+                    new ColorDrawable(ContextCompat.getColor(getActivity(), R.color.purple_color));
             d.setAlpha(200);
             mZrtpDialog.setContentView(R.layout.dialog);
             mZrtpDialog

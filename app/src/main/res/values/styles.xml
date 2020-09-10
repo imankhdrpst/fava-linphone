@@ -6,38 +6,38 @@
         <item name="android:windowBackground">@drawable/launch_screen</item>
 
         <!-- Android theme override -->
-        <item name="colorAccent">@color/white_color</item>
+        <item name="colorAccent">@color/primary_color</item>
         <item name="android:colorPrimary">@color/primary_color</item>
         <!-- Comment out the following line to disable system's status bar coloring -->
         <item name="android:colorPrimaryDark">@color/primary_dark_color</item>
-        <item name="android:textColorPrimary">@color/main_gold_color</item>
-        <item name="android:textColorSecondary">@color/main_gold_color_light</item>
-        <item name="android:textColorHint">@color/grey_color</item>
+        <item name="android:textColorPrimary">@color/light_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/grey_color</item>
+        <item name="android:textColorHint">@color/light_grey_color</item>
         <item name="android:colorBackground">@color/white_color</item>
-        <item name="android:textColorPrimaryInverse">@color/main_gold_color_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/white_color</item>
 
-        <item name="accentColor">@color/primary_color</item>
+        <item name="accentColor">@color/purple_light_color</item>
         <item name="accentColorLight30">@color/primary_light_color</item>
-        <item name="accentTextColor">@color/main_gold_color_light</item>
-        <item name="primaryTextColor">@color/main_gold_color</item>
-        <item name="secondaryTextColor">@color/main_gold_color_light</item>
-        <item name="primarySubtextDarkColor">@color/main_gold_color_dark</item>
-        <item name="primarySubtextLightColor">@color/main_gold_color_light</item>
+        <item name="accentTextColor">@color/white_color</item>
+        <item name="primaryTextColor">@color/light_primary_text_color</item>
+        <item name="secondaryTextColor">@color/white_color</item>
+        <item name="primarySubtextDarkColor">@color/grey_color</item>
+        <item name="primarySubtextLightColor">@color/light_grey_color</item>
 
-        <item name="backgroundColor">@color/primary_light_color</item>
-        <item name="backgroundColor2">@color/primary_light_color</item>
-        <item name="backgroundContastColor">@color/dark_grey_color</item>
-        <item name="dividerColor">@color/main_gold_color_dark</item>
+        <item name="backgroundColor">@color/white_color</item>
+        <item name="backgroundColor2">@color/header_background_color</item>
+        <item name="backgroundContastColor">@color/purple_color</item>
+        <item name="dividerColor">@color/light_grey_color</item>
 
-        <item name="drawableTintColor">@color/main_gold_color</item>
-        <item name="drawableTintDisabledColor">@color/main_gold_color_dark</item>
-        <item name="drawableTintOverColor">@color/main_gold_color</item>
+        <item name="drawableTintColor">@color/purple_color</item>
+        <item name="drawableTintDisabledColor">@color/disabled_color</item>
+        <item name="drawableTintOverColor">@color/primary_color</item>
 
         <item name="lighToolbarBackgroundColor">@color/toolbar_color</item>
-        <item name="lighToolbarBackgroundDisabledColor">@color/dark_grey_color</item>
-        <item name="lighToolbarTextColor">@color/main_gold_color</item>
-        <item name="darkToolbarBackgroundColor">@color/dark_grey_color</item>
-        <item name="darkToolbarTextColor">@color/main_gold_color_dark</item>
+        <item name="lighToolbarBackgroundDisabledColor">@color/light_grey_color</item>
+        <item name="lighToolbarTextColor">@color/purple_color</item>
+        <item name="darkToolbarBackgroundColor">@color/purple_color</item>
+        <item name="darkToolbarTextColor">@color/white_color</item>
 
         <item name="button_background_drawable">@drawable/button_background_light</item>
     </style>
@@ -135,7 +135,7 @@
     </style>
 
     <style name="chat_bubble_message_font" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textColor">@color/dark_grey_color</item>
+        <item name="android:textColor">@color/purple_color</item>
         <item name="android:textSize">15sp</item>
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textStyle">normal</item>
@@ -265,7 +265,7 @@
     </style>
 
     <style name="dialog_cancel_button_font" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textColor">@color/dark_grey_color</item>
+        <item name="android:textColor">@color/purple_color</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">16sp</item>
     </style>

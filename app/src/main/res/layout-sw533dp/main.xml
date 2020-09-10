@@ -102,7 +102,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/footer_button">
+                    >
 
                     <ImageView
                         android:id="@+id/footer_history"
@@ -140,7 +140,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/footer_button">
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -164,7 +164,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/footer_button">
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -189,7 +189,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:visibility="gone"
-                    android:background="@drawable/footer_button">
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"

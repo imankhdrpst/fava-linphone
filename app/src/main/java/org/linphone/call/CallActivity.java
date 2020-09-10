@@ -983,7 +983,7 @@ public class CallActivity extends LinphoneGenericActivity
         mCallUpdateDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
         mCallUpdateDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
         mCallUpdateDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        Drawable d = new ColorDrawable(ContextCompat.getColor(this, R.color.dark_grey_color));
+        Drawable d = new ColorDrawable(ContextCompat.getColor(this, R.color.purple_color));
         d.setAlpha(200);
         mCallUpdateDialog.setContentView(R.layout.dialog);
         mCallUpdateDialog

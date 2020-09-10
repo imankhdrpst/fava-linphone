@@ -65,7 +65,8 @@
         android:roundIcon="@drawable/ic_logo"
         android:resizeableActivity="true"
         android:theme="@style/LinphoneStyle"
-        android:requestLegacyExternalStorage="true">
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true">
 
         <!-- Starting activities -->
 

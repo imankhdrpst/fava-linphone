@@ -347,7 +347,7 @@ public final class LinphoneUtils {
     public static void showTrustDeniedDialog(Context context) {
         final Dialog dialog = new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        Drawable d = new ColorDrawable(ContextCompat.getColor(context, R.color.dark_grey_color));
+        Drawable d = new ColorDrawable(ContextCompat.getColor(context, R.color.purple_color));
         d.setAlpha(200);
         dialog.setContentView(R.layout.dialog);
         dialog.getWindow()
@@ -404,7 +404,7 @@ public final class LinphoneUtils {
     public static Dialog getDialog(Context context, String text) {
         final Dialog dialog = new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        Drawable d = new ColorDrawable(ContextCompat.getColor(context, R.color.dark_grey_color));
+        Drawable d = new ColorDrawable(ContextCompat.getColor(context, R.color.purple_color));
         d.setAlpha(200);
         dialog.setContentView(R.layout.dialog);
         dialog.getWindow()
