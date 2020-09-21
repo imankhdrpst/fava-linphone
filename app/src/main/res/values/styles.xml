@@ -39,7 +39,7 @@
         <item name="darkToolbarBackgroundColor">@color/purple_color</item>
         <item name="darkToolbarTextColor">@color/white_color</item>
 
-        <item name="button_background_drawable">@drawable/button_background_light</item>
+        <item name="button_background_drawable">@drawable/call</item>
     </style>
 
     <!-- Assistant related -->
@@ -336,8 +336,10 @@
     </style>
 
     <style name="numpad_composed_number_font" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textColor">?attr/lighToolbarTextColor</item>
+        <item name="android:textColor">?attr/secondaryTextColor</item>
+        <item name="android:textColorHint">?attr/primarySubtextLightColor</item>
         <item name="android:textSize">30sp</item>
+        <item name="android:background">@null</item>
     </style>
 
     <style name="main_account_font" parent="@android:style/TextAppearance.Medium">

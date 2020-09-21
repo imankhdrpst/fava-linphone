@@ -355,7 +355,7 @@ public class DialerActivity extends MainActivity implements AddressText.AddressC
 
         boolean atLeastOneCall = core.getCallsNb() > 0;
         mStartCall.setVisibility(atLeastOneCall ? View.GONE : View.VISIBLE);
-        mAddContact.setVisibility(atLeastOneCall ? View.GONE : View.VISIBLE);
+        //        mAddContact.setVisibility(atLeastOneCall ? View.GONE : View.VISIBLE);
         mAddContact.setEnabled(!mAddress.getText().toString().isEmpty());
 
         if (!atLeastOneCall) {
