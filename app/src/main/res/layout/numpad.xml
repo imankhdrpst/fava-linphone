@@ -8,7 +8,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit1"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -16,7 +16,7 @@
             android:textColor="@color/white_color"
             android:text="1°" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit2"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -24,7 +24,7 @@
             android:textColor="@color/white_color"
             android:text="2" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit3"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -38,7 +38,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit4"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -46,7 +46,7 @@
             android:soundEffectsEnabled="true"
             android:text="4" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit5"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -54,7 +54,7 @@
             android:textColor="@color/white_color"
             android:text="5" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit6"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -68,7 +68,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit7"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -76,7 +76,7 @@
             android:textColor="@color/white_color"
             android:text="7" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit8"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -84,7 +84,7 @@
             android:textColor="@color/white_color"
             android:text="8" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit9"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -98,7 +98,7 @@
         android:layout_weight="1"
         android:gravity="center">
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/DigitStar"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -106,7 +106,7 @@
             android:textColor="@color/white_color"
             android:text="*" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/Digit00"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"
@@ -114,7 +114,7 @@
             android:textColor="@color/white_color"
             android:text="0⁺" />
 
-        <org.linphone.dialer.views.Digit
+        <org.tamashamrah.dialer.views.Digit
             android:id="@+id/DigitHash"
             style="@style/DialerDigit"
             android:background="@drawable/numpad_digit"

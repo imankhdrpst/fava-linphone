@@ -71,7 +71,7 @@
         <!-- Starting activities -->
 
         <activity
-            android:name=".activities.LinphoneLauncherActivity"
+            android:name="org.tamashamrah.activities.LinphoneLauncherActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -83,7 +83,7 @@
         <!-- Main activities -->
 
         <activity
-            android:name=".dialer.DialerActivity"
+            android:name="org.tamashamrah.dialer.DialerActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.DIAL" />
@@ -106,18 +106,18 @@
         </activity>
 
         <activity
-            android:name=".activities.AboutActivity"
+            android:name="org.tamashamrah.activities.AboutActivity"
             android:noHistory="true"/>
 
         <activity
-            android:name=".recording.RecordingsActivity"
+            android:name="org.tamashamrah.recording.RecordingsActivity"
             android:noHistory="true"/>
 
         <activity
-            android:name=".settings.SettingsActivity"/>
+            android:name="org.tamashamrah.settings.SettingsActivity"/>
 
         <activity
-            android:name=".chat.ChatActivity"
+            android:name="org.tamashamrah.chat.ChatActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -145,7 +145,7 @@
         </activity>
 
         <activity
-            android:name=".contacts.ContactsActivity"
+            android:name="org.tamashamrah.contacts.ContactsActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -156,7 +156,7 @@
         </activity>
 
         <activity
-            android:name=".history.HistoryActivity"
+            android:name="org.tamashamrah.history.HistoryActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -166,19 +166,19 @@
         <!-- Call activities -->
 
         <activity
-            android:name=".call.CallIncomingActivity"
+            android:name="org.tamashamrah.call.CallIncomingActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:showWhenLocked="true"
             android:turnScreenOn="true"/>
 
         <activity
-            android:name=".call.CallOutgoingActivity"
+            android:name="org.tamashamrah.call.CallOutgoingActivity"
             android:launchMode="singleTop"
             android:noHistory="true"/>
 
         <activity
-            android:name=".call.CallActivity"
+            android:name="org.tamashamrah.call.CallActivity"
             android:launchMode="singleTop"
             android:showWhenLocked="true"
             android:supportsPictureInPicture="true"/>
@@ -186,37 +186,37 @@
         <!-- Assistant activities -->
 
         <activity
-            android:name=".assistant.MenuAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.MenuAssistantActivity"/>
         <activity
-            android:name=".assistant.AccountConnectionAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.AccountConnectionAssistantActivity"/>
         <activity
-            android:name=".assistant.EmailAccountCreationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.EmailAccountCreationAssistantActivity"/>
         <activity
-            android:name=".assistant.EmailAccountValidationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.EmailAccountValidationAssistantActivity"/>
         <activity
-            android:name=".assistant.PhoneAccountCreationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.PhoneAccountCreationAssistantActivity"/>
         <activity
-            android:name=".assistant.PhoneAccountValidationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.PhoneAccountValidationAssistantActivity"/>
         <activity
-            android:name=".assistant.PhoneAccountLinkingAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.PhoneAccountLinkingAssistantActivity"/>
         <activity
-            android:name=".assistant.GenericConnectionAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.GenericConnectionAssistantActivity"/>
         <activity
-            android:name=".assistant.QrCodeConfigurationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.QrCodeConfigurationAssistantActivity"/>
         <activity
-            android:name=".assistant.RemoteConfigurationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.RemoteConfigurationAssistantActivity"/>
         <activity
-            android:name=".assistant.EchoCancellerCalibrationAssistantActivity"/>
+            android:name="org.tamashamrah.assistant.EchoCancellerCalibrationAssistantActivity"/>
 
 
         <!-- Services -->
 
         <service
-            android:name=".service.LinphoneService"
+            android:name="org.tamashamrah.service.LinphoneService"
             android:label="@string/service_name" />
 
         <service
-            android:name=".sync.SyncService"
+            android:name="org.tamashamrah.sync.SyncService"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />
@@ -230,7 +230,7 @@
                 android:resource="@xml/contacts_new" />
         </service>
 
-        <service android:name=".sync.AuthenticationService">
+        <service android:name="org.tamashamrah.sync.AuthenticationService">
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
@@ -240,7 +240,7 @@
                 android:resource="@xml/authenticator" />
         </service>
 
-        <service android:name=".firebase.FirebaseMessaging"
+        <service android:name="org.tamashamrah.firebase.FirebaseMessaging"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -250,7 +250,7 @@
 
         <!-- Receivers -->
 
-        <receiver android:name=".receivers.BootReceiver">
+        <receiver android:name="org.tamashamrah.receivers.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.ACTION_SHUTDOWN" />
@@ -259,12 +259,12 @@
         </receiver>
 
         <receiver
-            android:name=".notifications.NotificationBroadcastReceiver"
+            android:name="org.tamashamrah.notifications.NotificationBroadcastReceiver"
             android:enabled="true"
             android:exported="false" />
 
         <receiver
-            android:name=".receivers.AccountEnableReceiver">
+            android:name="org.tamashamrah.receivers.AccountEnableReceiver">
             <intent-filter>
                 <action android:name="org.linphone.intent.ACCOUNTACTIVATE" />
             </intent-filter>
