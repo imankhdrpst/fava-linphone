@@ -50,6 +50,7 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import androidx.annotation.NonNull;
 import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.appcompat.view.menu.MenuPopupHelper;
 import androidx.core.view.inputmethod.InputConnectionCompat;
@@ -83,6 +84,7 @@ import org.linphone.core.EventLog;
 import org.linphone.core.Factory;
 import org.linphone.core.Participant;
 import org.linphone.core.ParticipantDevice;
+import org.linphone.core.ParticipantImdnState;
 import org.linphone.core.Reason;
 import org.linphone.core.tools.Log;
 import org.linphone.settings.LinphonePreferences;
@@ -1214,6 +1216,12 @@ public class ChatMessagesFragment extends Fragment
         ((ChatMessagesGenericAdapter) mChatEventsList.getAdapter()).addToHistory(event);
         scrollToBottom();
     }
+
+    @Override
+    public void onChatMessageParticipantImdnStateChanged(
+            @NonNull ChatRoom chatRoom,
+            @NonNull ChatMessage message,
+            @NonNull ParticipantImdnState state) {}
 
     @Override
     public void onConferenceAddressGeneration(ChatRoom cr) {}
