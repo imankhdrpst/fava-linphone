@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/transparent_color">
 
     <RelativeLayout
         android:id="@+id/address_bar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="10dp"
-        android:background="?attr/lighToolbarBackgroundColor">
+        android:layout_margin="10dp">
 
-        <org.linphone.dialer.views.EraseButton
+        <org.tamashamrah.dialer.views.EraseButton
             android:id="@+id/erase"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="16dp"
             android:focusableInTouchMode="true"
             android:contentDescription="@string/content_description_backspace"
             android:src="@drawable/backspace" />
 
-        <org.linphone.dialer.views.AddressText
+        <org.tamashamrah.dialer.views.AddressText
             android:id="@+id/address"
             style="@style/numpad_composed_number_font"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:layout_toLeftOf="@id/erase"
+            android:paddingEnd="48dp"
             android:ellipsize="start"
             android:hint="@string/address_bar_hint"
             android:inputType="textEmailAddress"
             android:paddingLeft="20dp"
             android:paddingRight="5dp"
-            android:textColorHint="@color/light_grey_color" />
+            android:layout_margin="4dp"
+            android:textColorHint="@color/light_grey_color"  />
 
     </RelativeLayout>
 
@@ -49,6 +49,7 @@
         android:id="@+id/controls"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentBottom="true">
 
         <RelativeLayout
@@ -56,6 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:adjustViewBounds="true"
+            android:visibility="gone"
             android:focusable="true">
 
             <ImageView
@@ -80,18 +82,25 @@
                 android:src="@drawable/call_back" />
 
         </RelativeLayout>
-
-        <org.linphone.call.views.CallButton
-            android:id="@+id/start_call"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:background="@drawable/call"
-            android:contentDescription="@string/content_description_call"
-            android:padding="12dp"
-            android:src="@drawable/call_audio_start" />
+            >
 
-        <org.linphone.call.views.CallButton
+            <org.tamashamrah.call.views.CallButton
+                android:id="@+id/start_call"
+                android:layout_height="54dp"
+                android:layout_width="154dp"
+                android:background="@drawable/call"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/content_description_call"
+                android:padding="12dp"/>
+
+        </RelativeLayout>
+
+
+        <org.tamashamrah.call.views.CallButton
             android:id="@+id/add_call"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +111,7 @@
             android:visibility="gone"
             android:src="@drawable/call_add" />
 
-        <org.linphone.call.views.CallButton
+        <org.tamashamrah.call.views.CallButton
             android:id="@+id/transfer_call"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
