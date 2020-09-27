@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:gravity="center_vertical"
-        android:paddingLeft="5dp"
-        android:paddingRight="16dp" />
+        android:paddingStart="5dp"
+        android:paddingEnd="16dp" />
 
 </LinearLayout>

@@ -66,8 +66,8 @@
                 style="@style/chat_room_ephemeral_desc_font"
                 android:gravity="center"
                 android:layout_marginBottom="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:text="@string/chat_room_ephemeral_messages_desc"/>
 
             <View

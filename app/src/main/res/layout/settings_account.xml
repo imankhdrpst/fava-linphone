@@ -55,8 +55,8 @@
             style="@style/settings_category_font"
             android:text="@string/pref_manage_title"
             android:paddingTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -88,8 +88,8 @@
             style="@style/settings_category_font"
             android:text="@string/pref_advanced_title"
             android:paddingTop="15dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 

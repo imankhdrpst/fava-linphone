@@ -28,8 +28,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start|center"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:paddingBottom="10dp">
 
                 <TextView
@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:paddingLeft="5dp" />
+                    android:paddingStart="5dp" />
 
                 <TextView
                     android:id="@+id/codec_audio"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_codec" />
 
                 <TextView
@@ -55,7 +55,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_encoder_name" />
 
                 <TextView
@@ -64,7 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_decoder_name" />
 
                 <TextView
@@ -73,7 +73,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp" />
+                    android:paddingStart="5dp" />
 
                 <TextView
                     android:id="@+id/audio_player_filter"
@@ -81,7 +81,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp" />
+                    android:paddingStart="5dp" />
 
                 <TextView
                     android:id="@+id/uploadBandwith_audio"
@@ -89,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_upload" />
 
                 <TextView
@@ -98,7 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_download" />
 
                 <TextView
@@ -107,7 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_ice" />
 
                 <TextView
@@ -116,7 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_ip" />
 
                 <TextView
@@ -125,7 +125,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_sender_loss_rate" />
 
                 <TextView
@@ -134,7 +134,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_receiver_loss_rate" />
 
                 <TextView
@@ -143,7 +143,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_jitter_buffer" />
 
             </TableLayout>
@@ -169,9 +169,9 @@
                 android:id="@+id/callStatsVideo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left|center"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
+                android:layout_gravity="start|center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
                 android:paddingBottom="10dp">
 
                 <TextView
@@ -180,7 +180,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_codec" />
 
                 <TextView
@@ -189,7 +189,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_encoder_name" />
 
                 <TextView
@@ -198,7 +198,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_decoder_name" />
 
                 <TextView
@@ -207,7 +207,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp" />
+                    android:paddingStart="5dp" />
 
                 <TextView
                     android:id="@+id/video_capture_device"
@@ -215,7 +215,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp" />
+                    android:paddingStart="5dp" />
 
                 <TextView
                     android:id="@+id/uploadBandwith_video"
@@ -223,7 +223,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_upload" />
 
                 <TextView
@@ -232,7 +232,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_download" />
 
                 <TextView
@@ -241,7 +241,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_estimated_download" />
 
                 <TextView
@@ -250,7 +250,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_ice" />
 
                 <TextView
@@ -259,7 +259,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_ip" />
 
                 <TextView
@@ -268,7 +268,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_sender_loss_rate" />
 
                 <TextView
@@ -277,7 +277,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_receiver_loss_rate" />
 
                 <TextView
@@ -286,7 +286,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_video_resolution_sent" />
 
                 <TextView
@@ -295,7 +295,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_video_resolution_received" />
 
                 <TextView
@@ -304,7 +304,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_video_fps_sent" />
 
                 <TextView
@@ -313,7 +313,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
                     android:text="@string/call_stats_video_fps_received" />
 
             </TableLayout>

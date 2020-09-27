@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
             android:text="@string/outgoing_call" />
 
     </RelativeLayout>
@@ -76,7 +76,7 @@
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
 

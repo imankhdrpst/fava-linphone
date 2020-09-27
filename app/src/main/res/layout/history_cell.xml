@@ -37,18 +37,18 @@
             android:id="@+id/detail"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:adjustViewBounds="true"
             android:contentDescription="@string/content_description_detail"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
             android:src="@drawable/list_detail" />
 
         <CheckBox
             android:id="@+id/delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:button="@drawable/checkbox"
             android:clickable="false"
@@ -60,7 +60,7 @@
             android:id="@+id/history_click"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_toLeftOf="@id/detail"
+            android:layout_toStartOf="@id/detail"
             android:gravity="center_vertical">
 
             <RelativeLayout
@@ -77,8 +77,8 @@
                 android:id="@+id/icon"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
-                android:layout_toRightOf="@id/avatar"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/avatar"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/content_description_call_direction"
                 android:padding="7dp"
@@ -89,8 +89,8 @@
                 style="@style/contact_name_list_cell_font"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@id/icon"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/icon"
                 android:gravity="center_vertical"
                 android:singleLine="true" />
 

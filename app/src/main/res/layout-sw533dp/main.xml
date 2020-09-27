@@ -127,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_margin="20dp"
                         android:background="@drawable/unread_message_count_bg"
                         android:gravity="center"
@@ -213,7 +213,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_margin="20dp"
                         android:background="@drawable/unread_message_count_bg"
                         android:gravity="center"
@@ -230,7 +230,7 @@
             android:id="@+id/side_menu_content"
             android:layout_width="400dp"
             android:layout_height="match_parent"
-            android:layout_gravity="left">
+            android:layout_gravity="start">
 
             <fragment
                 android:id="@+id/side_menu_fragment"

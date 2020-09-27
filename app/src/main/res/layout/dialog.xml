@@ -73,7 +73,7 @@
                 android:id="@+id/zrtp_sas_local"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:textAppearance="@style/dialog_zrtp_colored_font" />
 
         </LinearLayout>
@@ -96,7 +96,7 @@
                 android:id="@+id/zrtp_sas_remote"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:textAppearance="@style/dialog_zrtp_colored_font" />
 
         </LinearLayout>
@@ -123,7 +123,7 @@
             style="@style/dialog_message_font"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:text="@string/do_not_ask_again" />
 
     </LinearLayout>

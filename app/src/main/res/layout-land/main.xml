@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/top_bar"
-                android:layout_toRightOf="@+id/footer"
+                android:layout_toEndOf="@+id/footer"
                 android:orientation="horizontal" />
 
             <LinearLayout
@@ -91,7 +91,7 @@
                         android:id="@+id/history_select"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
-                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
                         android:background="?attr/accentColor"
                         android:visibility="gone" />
 
@@ -103,7 +103,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="15dp"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
                         android:background="@drawable/unread_message_count_bg"
                         android:gravity="center"
                         android:visibility="gone" />
@@ -129,7 +129,7 @@
                         android:id="@+id/contacts_select"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
-                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
                         android:background="?attr/accentColor"
                         android:visibility="gone" />
                 </RelativeLayout>
@@ -153,7 +153,7 @@
                         android:id="@+id/dialer_select"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
-                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
                         android:background="?attr/accentColor" />
 
                 </RelativeLayout>
@@ -178,7 +178,7 @@
                         android:id="@+id/chat_select"
                         android:layout_width="5dp"
                         android:layout_height="match_parent"
-                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
                         android:background="?attr/accentColor"
                         android:visibility="gone" />
 
@@ -190,7 +190,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:layout_marginTop="15dp"
-                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
                         android:background="@drawable/unread_message_count_bg"
                         android:gravity="center"
                         android:visibility="gone" />
@@ -215,7 +215,7 @@
             android:id="@+id/side_menu_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="left">
+            android:layout_gravity="start">
 
             <fragment
                 android:id="@+id/side_menu_fragment"

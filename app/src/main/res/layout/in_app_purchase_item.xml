@@ -9,7 +9,7 @@
         android:id="@+id/inapp_icon"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_centerInParent="true"
         android:layout_margin="5dp"
         android:src="@drawable/ic_logo" />
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_margin="5dp"
-        android:layout_toRightOf="@+id/inapp_icon"
+        android:layout_toEndOf="@+id/inapp_icon"
         android:orientation="vertical">
 
         <TextView
@@ -41,7 +41,7 @@
         android:id="@+id/purchase_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerInParent="true"
         android:layout_margin="5dp" />
 

@@ -15,7 +15,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_toLeftOf="@id/vertical_divider">
+        android:layout_toStartOf="@id/vertical_divider">
 
         <View
             android:id="@+id/left_vertical_divider"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@id/left_vertical_divider">
+            android:layout_toStartOf="@id/left_vertical_divider">
 
             <ImageView
                 android:id="@+id/video"
@@ -53,7 +53,7 @@
             android:id="@+id/micro"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_toRightOf="@id/left_vertical_divider"
+            android:layout_toEndOf="@id/left_vertical_divider"
             android:layout_alignParentBottom="true"
             android:background="?attr/button_background_drawable"
             android:contentDescription="@string/content_description_toggle_micro"
@@ -65,7 +65,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_toRightOf="@id/vertical_divider">
+        android:layout_toEndOf="@id/vertical_divider">
 
         <View
             android:id="@+id/right_vertical_divider"
@@ -76,7 +76,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_toLeftOf="@id/right_vertical_divider">
+            android:layout_toStartOf="@id/right_vertical_divider">
 
             <ImageView
                 android:id="@+id/speaker"
@@ -137,7 +137,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_toRightOf="@id/right_vertical_divider">
+            android:layout_toEndOf="@id/right_vertical_divider">
 
             <ImageView
                 android:id="@+id/options"

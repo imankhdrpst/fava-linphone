@@ -45,23 +45,23 @@
             android:id="@+id/delete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:button="@drawable/checkbox"
             android:clickable="false"
             android:contentDescription="@string/content_description_delete"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
             android:visibility="gone" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_toLeftOf="@id/delete"
-            android:layout_toRightOf="@id/record_play">
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/delete"
+            android:layout_toEndOf="@id/record_play">
 
             <LinearLayout
                 android:id="@+id/record_description"

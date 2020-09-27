@@ -8,14 +8,14 @@
         android:layout_width="3dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentEnd="true"/>
 
     <CheckBox
         android:id="@+id/delete_event"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:adjustViewBounds="true"
         android:button="@drawable/checkbox"
         android:clickable="false"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:layout_toLeftOf="@id/delete_event"
+        android:layout_toStartOf="@id/delete_event"
         android:background="@drawable/event_decoration_gray"
         android:gravity="center"
         android:orientation="horizontal"
@@ -38,8 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="?attr/backgroundColor"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:textAppearance="@style/group_chat_event_font" />
 
     </LinearLayout>
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:layout_toLeftOf="@id/delete_event"
+        android:layout_toStartOf="@id/delete_event"
         android:background="@drawable/event_decoration_red"
         android:gravity="center"
         android:orientation="horizontal"
@@ -61,8 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="?attr/backgroundColor"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:textAppearance="@style/group_chat_security_event_font" />
 
     </LinearLayout>
@@ -71,18 +71,18 @@
         android:id="@+id/bubble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@id/rightAnchor">
+        android:layout_toStartOf="@id/rightAnchor">
 
         <LinearLayout
             android:id="@+id/background"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/time"
-            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
             android:layout_marginTop="1dp"
-            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
             android:layout_marginBottom="1dp"
-            android:layout_toLeftOf="@+id/imdn"
+            android:layout_toStartOf="@+id/imdn"
             android:background="@drawable/chat_bubble_outgoing_full"
             android:orientation="vertical"
             android:paddingTop="5dp"
@@ -94,16 +94,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center_vertical|right"
-                android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp">
+                android:gravity="center_vertical|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp">
 
                 <ImageView
                     android:layout_width="15dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:src="@drawable/forwarded_message_default"
-                    android:layout_marginRight="3dp"/>
+                    android:layout_marginEnd="3dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -118,16 +118,16 @@
                 android:id="@+id/multi_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
                 app:flexWrap="wrap" />
 
             <RelativeLayout
                 android:id="@+id/single_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp">
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
 
                 <include layout="@layout/chat_bubble_content" />
 
@@ -137,9 +137,9 @@
                 android:id="@+id/message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
                 android:layout_marginBottom="5dp"
                 android:textAppearance="@style/chat_bubble_message_font" />
 
@@ -149,16 +149,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_gravity="right"
-                android:gravity="center_vertical|right"
-                android:layout_marginRight="5dp"
-                android:layout_marginLeft="5dp">
+                android:layout_gravity="end"
+                android:gravity="center_vertical|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp">
 
                 <TextView
                     android:id="@+id/ephemeral_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
                     android:textAppearance="@style/chat_bubble_ephemeral_font" />
 
                 <ImageView
@@ -176,7 +176,7 @@
             android:visibility="gone"
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:layout_toRightOf="@id/background"
+            android:layout_toEndOf="@id/background"
             android:layout_alignBottom="@id/background"
             android:indeterminateTint="?attr/accentColor" />
 
@@ -185,7 +185,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/background"
-            android:layout_marginLeft="5dp">
+            android:layout_marginStart="5dp">
 
             <include layout="@layout/contact_avatar" />
 
@@ -195,21 +195,21 @@
             android:id="@id/time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
             android:layout_marginTop="7dp"
-            android:layout_marginRight="5dp"
-            android:layout_toLeftOf="@id/imdn"
-            android:gravity="right"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/imdn"
+            android:gravity="end"
             android:textAppearance="@style/chat_bubble_time_font" />
 
         <ImageView
             android:id="@id/imdn"
             android:layout_width="10dp"
             android:layout_height="10dp"
-            android:layout_alignLeft="@id/delete_message"
+            android:layout_alignStart="@id/delete_message"
             android:layout_alignBottom="@id/background"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
             android:src="@drawable/imdn_received" />
 
         <ProgressBar
@@ -217,9 +217,9 @@
             android:layout_width="10dp"
             android:layout_height="10dp"
             android:layout_alignBottom="@id/background"
-            android:layout_alignParentRight="true"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:indeterminateTint="?attr/accentColor" />
 
     </RelativeLayout>
